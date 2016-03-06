@@ -1,2 +1,3 @@
-# NIMP
-Node Image Manipulation Program - a proof of concept
+# PRC2-zapocet
+Modular widget management in Qt
+
