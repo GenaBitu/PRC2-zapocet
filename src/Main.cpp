@@ -13,11 +13,11 @@ int main(int argc, char** argv)
     WINDOW->setCentralWidget(SPLITTER);
 
     WINDOW->resize(860, 640);
-    WINDOW->setWindowTitle("NIMP");
+    WINDOW->setWindowTitle("PRC2-zapocet");
     WINDOW->setWindowIcon(QIcon(":/icons/app_icon"));
 
-    QLabel* Label1{new QLabel{"NIMPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}};
-    QLabel* Label2{new QLabel{"NIMP2bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"}};
+    QLabel* Label1{new QLabel{"Widget 1 on the left"}};
+    QLabel* Label2{new QLabel{"Widget 2 on the right"}};
     SPLITTER->addWidget(Label1);
     SPLITTER->addWidget(Label2);
 
